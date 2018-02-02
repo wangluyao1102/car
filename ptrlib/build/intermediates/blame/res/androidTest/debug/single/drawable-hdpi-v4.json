@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\buildings.png",
+        "source": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\buildings.png"
+    },
+    {
+        "merged": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\sun.png",
+        "source": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\sun.png"
+    },
+    {
+        "merged": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\sky.png",
+        "source": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\sky.png"
+    },
+    {
+        "merged": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\androidtest\\car\\ptrlib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    }
+]

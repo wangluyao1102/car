@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新车" />
+    <com.car.view.ProgressWheel
+        android:id="@+id/pw"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        ProgressWheel:barLength="30dp"
+        ProgressWheel:barWidth="8dp"
+        ProgressWheel:circleColor="#F8F8F8"
+        ProgressWheel:pwbarColor="#FF6000"
+        ProgressWheel:rimColor="#B8B8B8"
+        ProgressWheel:rimWidth="4dp"
+        ProgressWheel:textColor="#595959"
+        ProgressWheel:textSize="16sp" />
+
+</LinearLayout>

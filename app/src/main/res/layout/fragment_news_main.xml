@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="@string/news_str_title"
+            android:layout_width="wrap_content"
+            android:textColor="#FF6000"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#F6F6F6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@drawable/news_ic_line" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/news_tv_important"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/news_ic_selected"
+                android:gravity="center"
+                android:text="@string/news_str_important"
+                android:textColor="#FF6000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/news_tv_car"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_str_car"
+                android:textColor="#7E7E7E"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/news_tv_buy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_str_buy"
+                android:textColor="#7E7E7E"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/news_tv_try"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_str_try"
+                android:textColor="#7E7E7E"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/news_tv_picture"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_str_picture"
+                android:textColor="#7E7E7E"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/news_tv_market"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/news_str_market"
+                android:textColor="#7E7E7E"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="@drawable/news_ic_line" />
+
+    </LinearLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/news_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

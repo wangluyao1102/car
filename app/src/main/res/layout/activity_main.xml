@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+    <FrameLayout
+        android:id="@+id/car_flyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/car_bg_tab"
+        android:baselineAligned="false"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/car_llyt_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/car_iv_news"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_news_selector" />
+
+            <TextView
+                android:id="@+id/car_tv_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/car_str_news"
+                android:textColor="@color/car_cl_unchoose"
+                android:textSize="@dimen/t4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car_llyt_find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/car_iv_find"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_find_selector" />
+
+            <TextView
+                android:id="@+id/car_tv_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/car_str_find"
+                android:textColor="@color/car_cl_unchoose"
+                android:textSize="@dimen/t4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car_llyt_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/car_iv_price"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_price_selector" />
+
+            <TextView
+                android:id="@+id/car_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/car_str_price"
+                android:textColor="@color/car_cl_unchoose"
+                android:textSize="@dimen/t4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car_llyt_question"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/car_iv_question"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_question_selector" />
+
+            <TextView
+                android:id="@+id/car_tv_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/car_str_question"
+                android:textColor="@color/car_cl_unchoose"
+                android:textSize="@dimen/t4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car_llyt_self"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/car_iv_self"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/car_self_selector" />
+
+            <TextView
+                android:id="@+id/car_tv_self"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/car_str_self"
+                android:textColor="@color/car_cl_unchoose"
+                android:textSize="@dimen/t4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

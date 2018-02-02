@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="car_cl_unchoose">#595959</color>
+    <color name="car_cl_choose">#FF6000</color>
+    <color name="news_cl_choose">#FF6000</color>
+    <color name="news_cl_unchoose">#FF6000</color>
+    <color name="news_head_cl_choose">#C8E7B496</color>
+    <color name="news_head_cl_unchoose">#00000000</color>
+
+</resources>
